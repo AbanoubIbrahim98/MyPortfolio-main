@@ -1,0 +1,36 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Hassan Ali&#39;s Personal Website",
+  "author": "Hassan Ali",
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt dev",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "aos": "^2.3.4",
+    "axios": "^0.19.2",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.15.8",
+    "progressbar.js": "^1.1.0",
+    "sweetalert2": "^9.17.2",
+    "typed.js": "^2.0.11",
+    "typeit": "^7.0.4",
+    "vue-carousel": "^0.18.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/vercel-builder": "^0.22.1",
+    "sass": "^1.55.0",
+    "webpack": "^4.46.0",
+    "sass-loader": "^10.1.1"
+  },
+  "devDependencies": {}
+}
